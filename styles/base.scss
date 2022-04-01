@@ -9,6 +9,6 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.font-8bit {
-  font-family: 'Press Start 2P', sans-serif;
+h1 {
+  @apply text-3xl font-bold #{!important};
 }
