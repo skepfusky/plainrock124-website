@@ -1,0 +1,14 @@
+header,
+footer {
+  #wrapper {
+    @apply px-3 py-5 mx-auto max-w-screen-xl;
+  }
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.font-8bit {
+  font-family: 'Press Start 2P', sans-serif;
+}
