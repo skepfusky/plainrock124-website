@@ -27,7 +27,7 @@ export default function Home() {
       </section>
       <section className="max-w-screen-2xl mx-auto my-0 py-2 px-5">
         <h1>Popular Series</h1>
-        <div className="grid gap-3 grid-cols-4">
+        <div className="grid gap-3 grid-cols-3">
           <SeriesItem title={"Bored Smashing"} />
           <SeriesItem title={"Mac Review or something"} />
           <SeriesItem title={"Moving On..."} />

@@ -1,7 +1,7 @@
 header,
 footer {
   #wrapper {
-    @apply px-3 py-5 mx-auto max-w-screen-xl;
+    @apply px-6 py-5 mx-auto max-w-screen-xl;
   }
 }
 
@@ -9,6 +9,6 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-h1 {
-  @apply text-3xl font-bold #{!important};
+section h1 {
+  @apply text-3xl font-bold my-3 #{!important};
 }

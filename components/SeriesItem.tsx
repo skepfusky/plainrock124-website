@@ -1,5 +1,3 @@
-import { totalmem } from "os";
-
 interface ISeriesItemProps {
   title: string;
   description?: string;
@@ -13,9 +11,9 @@ export default function SeriesItem({
 }: ISeriesItemProps) {
   return (
     <div className="card-item">
-      <h2 className="font-8bit text-xl font-bold">{title}</h2>
+      <h2 className="font-8bit text-xl font-bold mt-9">{title}</h2>
       <p>{description}</p>
-      <span>Total episodes: {episodes}</span>
+      <span>{episodes} episodes</span>
     </div>
   )
 };

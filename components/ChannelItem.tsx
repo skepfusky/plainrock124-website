@@ -12,10 +12,11 @@ export default function ChannelItem({
 }: IChannelItemProps) {
   return (
     <Link href={link}>
-      <a className="card-item flex flex-col items-center">
-        <h2 className="font-8bit text-xl font-bold">{title}</h2>
+      <a className="card-item-channel flex flex-col items-center">
+        <img className="rounded-full" src="https://yt3.ggpht.com/ytc/AKedOLRckh3zd9qyXi_IwKF-1iwzMsvZ1aQjv1MoE1tovw" />
+        <h2 className="font-8bit text-xl font-bold mt-3">{title}</h2>
         <p>{description}</p>
-        <span>{subscribers}</span>
+        <span>{subscribers} subscribers</span>
       </a>
     </Link>
   );
