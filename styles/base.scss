@@ -12,3 +12,7 @@ body {
 section h1 {
   @apply text-3xl font-bold my-3 #{!important};
 }
+
+.font-8bit {
+  font-family: 'Press Start 2P', monospace;
+}

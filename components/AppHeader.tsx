@@ -7,8 +7,9 @@ export default function AppHeader() {
         <Link href="/">
           <a className="font-8bit">PLAINROCK124</a>
         </Link>
-        <nav className="flex gap-x-4">
+        <nav className="gap-x-4 md:flex sm:hidden">
           <Link href="/bored-smashing">Bored Smashing</Link>
+          <Link href="/50-ways-to-break">50 Ways to Break...</Link>
           <Link href="/moving-on">Moving On...</Link>
           <Link href="/vlogs">Vlogs</Link>
           <Link href="/about">About</Link>
